@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyboard</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>Keyboard</h1>
+    <div class="keyboard">
+        <div class="key1">
+            <ul>Esc</ul>
+            <ul>F1</ul>
+            <ul>F2</ul>
+            <ul>F3</ul>
+            <ul>F4</ul>
+            <ul>F5</ul>
+            <ul>F6</ul>
+            <ul>F7</ul>
+            <ul>F8</ul>
+            <ul>F9</ul>
+            <ul>F10</ul>
+            <ul>F11</ul>
+            <ul>F12</ul>
+            <ul><p>
+                
+            </p>
+                break</ul>
+            <ul>Pause
+                Break
+            </ul>
+            <ul>Insert
+                Delete
+            </ul>
+            <ul>Home</ul>
+            <ul>Pg Up</ul>
+            <ul>Pg Dn</ul>
+            <ul>End</ul>
+            <ul><span class="material-symbols-outlined">
+                power_settings_new
+                </span></ul>
+        </div>
+        <div class="key2">
+            <ul>~`
+            </ul>
+            <ul>!1</ul>
+            <ul>@2</ul>
+            <ul>#3</ul>
+            <ul>$4</ul>
+            <ul>%5</ul>
+            <ul>^6</ul>
+            <ul>&7</ul>
+            <ul>*8</ul>
+            <ul>(9</ul>
+            <ul>)0</ul>
+            <ul>_-</ul>
+            <ul>+=</ul>
+            <ul>Backspace</ul>
+            <ul>Numlock</ul>
+            <ul>/</ul>
+            <ul>*</ul>
+            <ul>-</ul>
+        </div>
+        <div class="key3">
+            <ul>Tab</ul>
+            <ul>Q</ul>
+            <ul>W</ul>
+            <ul>E</ul>
+            <ul>R</ul>
+            <ul>T</ul>
+            <ul>Y</ul>
+            <ul>U</ul>
+            <ul>I</ul>
+            <ul>O</ul>
+            <ul>P</ul>
+            <ul>{[</ul>
+            <ul>]}</ul>
+            <ul>|\</ul>
+            <ul>7</ul>
+            <ul>8</ul>
+            <ul>9</ul>
+            <ul>+</ul>
+
+        </div>
+        <div class="key4">
+            <ul>Caps Lock</ul>
+            <ul>A</ul>
+            <ul>S</ul>
+            <ul>D</ul>
+            <ul>F</ul>
+            <ul>G</ul>
+            <ul>H</ul>
+            <ul>J</ul>
+            <ul>K</ul>
+            <ul>L</ul>
+            <ul>:;</ul>
+            <ul>"'</ul>
+            <ul>Enter</ul>
+            <ul>4</ul>
+            <ul>5</ul>
+            <ul>6</ul>
+            <ul>+</ul>
+
+        </div>
+        <div class="key5">
+            <ul>Shift</ul>
+            <ul>Z</ul>
+            <ul>X</ul>
+            <ul>C</ul>
+            <ul>V</ul>
+            <ul>B</ul>
+            <ul>N</ul>
+            <ul>M</ul>
+            <ul><</ul>
+            <ul>></ul>
+            <ul>?</ul>
+            <ul>Shift</ul>
+            <ul>1</ul>
+            <ul>2</ul>
+            <ul>3</ul>
+        </div>
+        <div class="key6">
+            <ul>Ctrl</ul>
+            <ul>Fn</ul>
+            <ul><span class="material-symbols-outlined">
+                grid_view
+                </span></ul>
+            <ul>Alt</ul>
+            <ul><ul>space</ul></ul>
+            <ul>Alt Gr</ul>
+            <ul><span class="material-symbols-outlined">
+                list
+                </span></ul>
+            <ul>Ctrl</ul>
+            <ul><span class="material-symbols-outlined">
+                arrow_back_ios
+                </span></ul>
+            <ul><span class="material-symbols-outlined">
+                unfold_more
+                </span></ul>
+            <ul><span class="material-symbols-outlined">
+                arrow_forward_ios
+                </span></ul>
+            <ul>0</ul>
+            <ul>.</ul>
+            <ul>Enter</ul> 
+        </div>
+        <div class="key7">
+            <div></div>
+        </div>
+
+    </div>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
